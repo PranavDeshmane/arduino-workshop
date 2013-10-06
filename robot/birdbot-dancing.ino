@@ -5,8 +5,8 @@ Servo leftWheel;
 Servo rightWheel;
 //end init obj
 
-int lwpin = 10;
-int rwpin = 11;
+int lwpin = 6;
+int rwpin = 5;
 
 void setup() {
   leftWheel.attach(lwpin);
